@@ -1,0 +1,495 @@
+body{
+    background-size: cover;
+}
+
+.restaurant{
+    color: white;
+    background-color: black;
+    border: 2px solid grey;
+    width: 250px;
+    font-size: 30px;
+}
+
+.wsu{
+    font-size: 40px;
+    position: absolute;
+    top: 150px;
+    color: red;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.burger_img{
+    position: absolute;
+    left: 270px;
+    top: 15px;
+    border-radius: 20px;
+    width: 80px;
+    height: 50px;
+}
+
+.burger_img:hover{
+width: 90px;
+height: 60px;
+}
+
+.wsu:hover{
+color: green;
+cursor: pointer;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about{
+    color: magenta;
+    position: absolute;
+    top: 300px;
+}
+
+.thnx{
+    position: absolute;
+    top: 430px;
+    color: darkmagenta;
+}
+
+.pizza_img{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 900px;
+    top: 180px;
+    border-radius: 400px;
+}
+
+.pizza_img:hover{
+    width: 360px;
+    height: 360px;
+}
+
+.veg_img{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+}
+
+.pv{
+    position: absolute;
+    right: 80px;
+    top: 2px;
+    font-size: 20px;
+    color: green;
+    position: fixed;
+
+}
+
+.om{
+    position: absolute;
+    top: 600px;
+    left: 670px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue ;
+}
+
+.starter{
+    font-size: 25px;
+    position: absolute;
+    top: 670px;
+    left: 710px;
+    color: deeppink;
+}
+         
+.manchurian_img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 770px;
+    left: 200px;
+    border-radius: 700px;
+}
+
+.sapm{
+    position: absolute;
+    top: 950px;
+    left: 230px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sapm:hover{
+    font-size: 19px;
+}
+
+.mp{
+    position: absolute;
+    top: 980px;
+    left: 230px;
+}
+
+.manchurian_order_now{
+    position: absolute;
+    top: 1035px;
+    left: 270px;  
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    background-color: orange;
+    
+}
+
+.manchurian_order_now:hover{
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.manchow_soup_img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 770px;
+    left: 600px;
+    border-radius: 500px;
+}
+
+.sapms{
+    position: absolute;
+    top: 950px;
+    left: 630px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sapms:hover{
+    font-size: 19px;
+}
+
+.ms{
+    position: absolute;
+    top: 980px;
+    left: 700px;
+}
+
+.manchow_soup_order_now{
+    position: absolute;
+    top: 1035px;
+    left: 680px;  
+    color: black;
+    font-size: 17px;
+    background-color: orange;
+}
+
+.manchow_soup_order_now:hover{
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.tomato_soup_img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 770px;
+    left: 1100px;
+    border-radius: 500px;
+}
+
+.starting_at_price_tomato_soup{
+    position: absolute;
+    top: 950px;
+    left: 1130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.starting_at_price_tomato_soup:hover{
+    font-size: 19px;
+}
+
+.name_and_q{
+    position: absolute;
+    top: 980px;
+    left: 1170px;
+}
+
+.tomato_soup_order_now{
+    position: absolute;
+    top: 1035px;
+    left: 1180px;  
+    color: black;
+    font-size: 17px;
+    background-color: orange;
+}
+
+.tomato_soup_order_now:hover{
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.drinks{
+    font-size: 25px;
+    position: absolute;
+    top: 1100px;
+    left: 710px;
+    color: deepskyblue;
+}
+
+.chai_img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 1230px;
+    left: 200px;
+    border-radius: 500px;
+}
+
+.starting_at_price_chai{
+    position: absolute;
+    top: 1420px;
+    left: 230px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.starting_at_price_chai:hover{
+    font-size: 19px;
+}
+
+.chai{
+    position: absolute;
+    top: 1470px;
+    left: 310px;
+}
+
+.chai_order_now{
+    position: absolute;
+    top: 1530px;
+    left: 290px;  
+    color: black;
+    font-size: 17px;
+    background-color: orange;
+}
+
+.chai_order_now:hover{
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.thumbsup_img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 1230px;
+    left: 600px;
+    border-radius: 500px;
+}
+
+.starting_at_price_thumbsup{
+    position: absolute;
+    top: 1420px;
+    left: 630px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.starting_at_price_thumbsup:hover{
+    font-size: 19px;
+}
+
+.thumbsup{
+    position: absolute;
+    top: 1470px;
+    left: 670px;
+}
+
+.thumbsup_order_now{
+    position: absolute;
+    top: 1530px;
+    left: 680px;  
+    color: black;
+    font-size: 17px;
+    background-color: orange;
+}
+
+.thumbsup_order_now:hover{
+    color: white;
+    font-size: 19px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+
+.fenta_img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 1230px;
+    left: 1100px;
+    border-radius: 500px;
+}
+
+.starting_at_price_fenta{
+    position: absolute;
+    top: 1420px;
+    left: 1130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.starting_at_price_fenta:hover{
+    font-size: 19px;
+}
+
+.fenta{
+    position: absolute;
+    top: 1470px;
+    left: 1200px;
+}
+
+.fenta_order_now{
+    position: absolute;
+    top: 1530px;
+    left: 1190px;  
+    color: black;
+    font-size: 17px;
+    background-color: orange;
+}
+
+.fenta_order_now:hover{
+    color: white;
+    font-size: 19px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.main_course{
+    font-size: 25px;
+    position: absolute;
+    top: 1580px;
+    left: 680px;
+    color: rgba(255, 0, 0, 0.697) ;
+}
+
+.paneer_img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 1700px;
+    left: 200px;
+    border-radius: 500px;
+}
+
+.starting_at_price_paneer{
+    position: absolute;
+    top: 1890px;
+    left: 230px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.starting_at_price_paneer:hover{
+    font-size: 19px;
+}
+
+.paneer{
+    position: absolute;
+    top: 1940px;
+    left: 300px;
+}
+
+.paneer_order_now{
+    position: absolute;
+    top: 2000px;
+    left: 287px;  
+    color: black;
+    font-size: 17px;
+    background-color: orange;
+}
+
+.paneer_order_now:hover{
+    color: white;
+    font-size: 19px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.roti_img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 1700px;
+    left: 620px;
+    border-radius: 500px;
+}
+
+.starting_at_price_roti{
+    position: absolute;
+    top: 1890px;
+    left: 660px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.starting_at_price_roti:hover{
+    font-size: 19px;
+}
+
+.roti{
+    position: absolute;
+    top: 1940px;
+    left: 715px;
+}
+
+.roti_order_now{
+    position: absolute;
+    top: 2000px;
+    left: 712px;  
+    color: black;
+    font-size: 17px;
+    background-color: orange;
+}
+
+.roti_order_now:hover{
+    color: white;
+    font-size: 19px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.cake_img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 1700px;
+    left: 1100px;
+    border-radius: 500px;
+}
+
+.starting_at_price_cake{
+    position: absolute;
+    top: 1890px;
+    left: 1150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.starting_at_price_cake:hover{
+    font-size: 19px;
+}
+
+.cake{
+    position: absolute;
+    top: 1940px;
+    left: 1220px;
+}
+
+.cake_order_now{
+    position: absolute;
+    top: 2000px;
+    left: 1215px;  
+    color: black;
+    font-size: 17px;
+    background-color: orange;
+}
+
+.cake_order_now:hover{
+    color: white;
+    font-size: 19px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.thank_you{
+    color: red;
+    position: absolute;
+    left: 700px;
+    top: 2100px;
+}
